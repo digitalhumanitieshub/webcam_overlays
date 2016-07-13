@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Webcam Overlays</title>
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" />
+  <style>
+    body {overflow: hidden;}
+    canvas
+    {
+      outline: 0px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+    }
+    #snapshot
+    {
+      position:absolute;
+      z-index: 10;
+      bottom: 0;
+      right: 0;
+      margin: 10px;
+      font-size: 150%;
+    }
+    #dlbutt
+    {
+      position:absolute;
+      z-index: 10;
+      top: 10;
+      right: 0;
+      margin: 10px;
+      font-size: 150%;
+      display: none;
+    }
+    #bkgnd
+    {
+      outline: 0px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background: black;
+    }
+  </style>
+  <script>
+
+    var iscale=0.5;
+
+    var cardlist=
+    [
+
+      "hublogo.jpg",
+      "football.png"
+
+    ];
+
+  </script>
+	<script src="./webcamoverlays.js"></script>
+</head>
+<body onload="init_canvas()">
+  <div id="bkgnd">
+    <video autoplay="true" id="webcam" width="100%" height="100%"></video>
+  </div>
+  <canvas id="touchcanvas"></canvas> 
+  <a id="dl" download="webcamoverlays.jpg" onClick="downloadimage()"><img src="download.png" id="dlbutt" /></a>
+  <img src="camera.png" id="snapshot" onClick="dosnapshot()" />
+</body>
+</html>
