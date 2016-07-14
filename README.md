@@ -2,7 +2,7 @@
 
 ##Introduction
 
-The Digital Humanities Hub hold regular events for anyone interested in their work, which are known as CAKE events. The July 2016 CAKE topic of 'Digital Landscapes' included a keynote talk by artist Jaime Jackson of Salt Road. Based on work he has been doing he came up with a concept for interactive art where people can create a picture of themselves overlayed with leaves that they can position and resize to build their own artwork. So the Digital Humanities Hub collaborated with Jaime to build a web-based system to allow them to do just that. As well as being able to create their atwork, we also coded the system to allow the resulting images to be downloaded. As you can see in the example below, people had a lot of creative fun with it at our CAKE.
+The Digital Humanities Hub hold regular events for anyone interested in their work, which are known as CAKE events. The June 2016 CAKE topic of 'Digital Landscapes' included a keynote talk by artist Jaime Jackson of Salt Road. Based on work he has been doing he came up with a concept for interactive art where people can create a picture of themselves overlayed with leaves that they can position and resize to build their own artwork. So the Digital Humanities Hub collaborated with Jaime to build a web-based system to allow them to do just that. As well as being able to create their atwork, we also coded the system to allow the resulting images to be downloaded. As you can see in the example below, people had a lot of creative fun with it at our CAKE.
 
 ![A screenshot of the working code in a browser](./screenshot.jpg)
 
